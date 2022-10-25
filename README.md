@@ -1,6 +1,6 @@
 # BL-JUNIPER-A-CNN-Assisted-Framework-for-Perceptual-Video-Coding-Leveraging-Block-Level-JND
 
-### Introduction
+## Introduction
 
 This is the implementation of [BL-JUNIPER: A CNN-Assisted Framework for Perceptual Video Coding Leveraging Block-Level JND](https://ieeexplore.ieee.org/abstract/document/9810507) paper in Keras and Matlab
 
@@ -12,10 +12,23 @@ Just Noticeable Distortion (JND) finds the minimum distortion level perceivable 
 
 ![image](https://user-images.githubusercontent.com/59918141/197768571-20a1aa16-30f0-45ac-ad0b-e798f534950f.png)
 
-### Requirements and Installation
-## Requirements and Installation
-# Requirements and Installation
-We recommended the following dependencies.
+## Requirements
 
-Python 3.6
-PyTorch 1.4.0
+- Keras
+- Matlab
+- FFmpeg
+
+
+
+## Citation
+If our work is useful for your research, please cite our paper:
+
+@article{shen2020just,
+  title={Just Noticeable Distortion Profile Inference: A Patch-Level Structural Visibility Learning Approach},
+  author={Shen, Xuelin and Ni, Zhangkai and Yang, Wenhan and Zhang, Xinfeng and Wang, Shiqi and Kwong, Sam},
+  journal={IEEE Transactions on Image Processing},
+  volume={30},
+  pages={26--38},
+  year={2020},
+  publisher={IEEE}
+}
