@@ -26,7 +26,9 @@ Just Noticeable Distortion (JND) finds the minimum distortion level perceivable 
 Our evaluation is conducted on [MCL-JCV](https://mcl.usc.edu/mcl-jcv-dataset/) dataset.
 
 
+
 ## Usage
+
 
 
 ## Citation
