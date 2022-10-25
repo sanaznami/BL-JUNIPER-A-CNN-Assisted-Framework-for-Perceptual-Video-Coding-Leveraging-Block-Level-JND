@@ -23,8 +23,7 @@ Just Noticeable Distortion (JND) finds the minimum distortion level perceivable 
 ## Citation
 If our work is useful for your research, please cite our paper:
 
-
-    @inproceedings{plummerCITE2018,
+    @article{nami2022bl,
 	Author = {Bryan A. Plummer and Paige Kordas and M. Hadi Kiapour and Shuai Zheng and Robinson Piramuthu and Svetlana Lazebnik},
 	Title = {Conditional Image-Text Embedding Networks},
 	Booktitle  = {The European Conference on Computer Vision (ECCV)},
