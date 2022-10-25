@@ -23,12 +23,10 @@ Just Noticeable Distortion (JND) finds the minimum distortion level perceivable 
 ## Citation
 If our work is useful for your research, please cite our paper:
 
-@article{shen2020just,
-  title={Just Noticeable Distortion Profile Inference: A Patch-Level Structural Visibility Learning Approach},
-  author={Shen, Xuelin and Ni, Zhangkai and Yang, Wenhan and Zhang, Xinfeng and Wang, Shiqi and Kwong, Sam},
-  journal={IEEE Transactions on Image Processing},
-  volume={30},
-  pages={26--38},
-  year={2020},
+@article{nami2022bl,
+  title={BL-JUNIPER: A CNN-Assisted Framework for Perceptual Video Coding Leveraging Block-Level JND},
+  author={Nami, Sanaz and Pakdaman, Farhad and Hashemi, Mahmoud Reza and Shirmohammadi, Shervin},
+  journal={IEEE Transactions on Multimedia},
+  year={2022},
   publisher={IEEE}
 }
