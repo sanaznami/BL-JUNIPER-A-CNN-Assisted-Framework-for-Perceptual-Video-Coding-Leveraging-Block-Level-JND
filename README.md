@@ -26,12 +26,20 @@ Just Noticeable Distortion (JND) finds the minimum distortion level perceivable 
 Our evaluation is conducted on [MCL-JCV](https://mcl.usc.edu/mcl-jcv-dataset/) dataset.
 
 
+## Pre-trained Models
+The pre-trained JND models are saved to the 'Block-Level JND Predictive Model/Pre-trained JND Models'.
+
 
 ## Usage
 
-
+For your usage, please follow the following steps:
+  1. Use this command line 'Block-Level JND Predictive Model/S1_ExtractingFrames_FFmpeg' in FFmpeg to extract the all frames of a video.
+  2. Run 'Block-Level JND Predictive Model/S2_PreparingBlockLevelData.m' to convert your test frames into blocks. (Matlab Code)
+  3. Run 'Block-Level JND Predictive Model/S3_CalculatingTPI.m' to calculate the Temporal Perceptual Information (TPI) for each blocks.
+  4. Run 'Block-Level JND Predictive Model/S4_Test.py' to predict the JND levels for your dataset using the pre-trained models.
 
 ## Citation
+
 If our work is useful for your research, please cite our paper:
 
     @article{nami2022bl,
