@@ -1,0 +1,6 @@
+You can extract bmp frames of a video with FFmpeg:
+
+ffmpeg -i video.mp4 out_%d.bmp
+
+
+ffmpeg -s 1920x1080 -i video.yuv out_%d.bmp

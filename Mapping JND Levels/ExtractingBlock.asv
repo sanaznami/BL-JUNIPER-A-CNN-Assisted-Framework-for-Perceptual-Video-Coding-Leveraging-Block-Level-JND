@@ -1,0 +1,38 @@
+clear
+
+%Reading a video
+Video = VideoReader('D:\PHD\MCL-JCV\Videos\1080PAVCFQPvideoSRC01-20200915T061845Z-001\1080PAVCFQPvideoSRC01\videoSRC01_01.mp4');
+
+%Extracting all frame of video
+AllFrame = read(Video,[1 Inf]);
+
+%extracting one frame of a video every 30 frames
+for k=1:30:size(AllFrame,4)
+    Frames{floor(k/30)+1,1}=AllFrame(:,:,:,k);
+end
+
+for i=1:16
+    for j=1:30
+        F1{i,j}=Frames{1,1}(64*(i-1)+1:i*64,64*(j-1)+1:j*64,:);
+        F31{i,j}=Frames{2,1}(64*(i-1)+1:i*64,64*(j-1)+1:j*64,:);
+        F61{i,j}=Frames{3,1}(64*(i-1)+1:i*64,64*(j-1)+1:j*64,:);
+        F91{i,j}=Frames{4,1}(64*(i-1)+1:i*64,64*(j-1)+1:j*64,:);
+        F121{i,j}=Frames{5,1}(64*(i-1)+1:i*64,64*(j-1)+1:j*64,:);
+    end
+end
+
+for x=1:16
+    for y=1:30
+        for k=1:3
+            for i=1:64
+                for j=1:64
+                    Data_V01_F001_QP01((x-1)*30+y,(k-1)*64*64+(i-1)*64+j)=F1{x,y}(i,j,k);
+                    Data_V01_F031_QP01((x-1)*30+y,(k-1)*64*64+(i-1)*64+j)=F31{x,y}(i,j,k);
+                    Data_V01_F061_QP01((x-1)*30+y,(k-1)*64*64+(i-1)*64+j)=F61{x,y}(i,j,k);
+                    Data_V01_F091_QP01((x-1)*30+y,(k-1)*64*64+(i-1)*64+j)=F91{x,y}(i,j,k);
+                    Data_V01_F121_QP01((x-1)*30+y,(k-1)*64*64+(i-1)*64+j)=F121{x,y}(i,j,k);
+                end
+            end
+        end
+    end
+end
