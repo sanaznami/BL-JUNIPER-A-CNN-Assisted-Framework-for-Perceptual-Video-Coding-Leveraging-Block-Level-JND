@@ -12,3 +12,10 @@ Just Noticeable Distortion (JND) finds the minimum distortion level perceivable 
 
 ![image](https://user-images.githubusercontent.com/59918141/197768571-20a1aa16-30f0-45ac-ad0b-e798f534950f.png)
 
+### Requirements and Installation
+## Requirements and Installation
+# Requirements and Installation
+We recommended the following dependencies.
+
+Python 3.6
+PyTorch 1.4.0
