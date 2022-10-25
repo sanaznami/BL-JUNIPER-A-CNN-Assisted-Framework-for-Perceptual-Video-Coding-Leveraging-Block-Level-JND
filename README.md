@@ -21,6 +21,8 @@ Just Noticeable Distortion (JND) finds the minimum distortion level perceivable 
 - FFmpeg
 
 
+## Usage
+
 
 ## Citation
 If our work is useful for your research, please cite our paper:
