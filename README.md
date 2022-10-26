@@ -42,7 +42,7 @@ For your usage, please follow the following steps:
 ## Training
 
 please follow the following steps:
-  1. Run all Matlab code (S1 to S6) in 'Mapping JND Levels' to generate JND levels for your dataset.
+  1. Run all Matlab code (S1 to S6) in 'Mapping JND Levels directory' to generate JND levels for your dataset.
   2. Run 'Block-Level JND Predictive Model/Model.py' to train your model.
 
 
