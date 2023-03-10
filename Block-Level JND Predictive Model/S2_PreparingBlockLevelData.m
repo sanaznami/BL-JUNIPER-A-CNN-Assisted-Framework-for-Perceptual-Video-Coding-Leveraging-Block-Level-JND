@@ -2,7 +2,7 @@
 
 %Path of bmp frames
 %frame-size: 1920*1080
-Path = 'D:\PHD\Paper2\TestSequences\Cactus\';
+Path = '';
 NumPath=dir([Path '*.bmp']);
 LenPath=length(NumPath)
 
