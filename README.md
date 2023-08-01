@@ -1,4 +1,4 @@
-# BL-JUNIPER: A CNN Assisted Framework for Perceptual Video Coding Leveraging Block Level JND
+<h1 align="center"> BL-JUNIPER: A CNN Assisted Framework for Perceptual Video Coding Leveraging Block Level JND</h1>
 
 ## Introduction
 
